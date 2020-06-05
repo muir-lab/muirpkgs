@@ -55,7 +55,6 @@ Imports:
   units,
   usethis,
   viridis
-Remotes:
 Encoding: UTF-8
 LazyData: true
 Suggests: 
