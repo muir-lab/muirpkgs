@@ -1,0 +1,63 @@
+Package: muirpkgs
+Type: Package
+Title: Attach Muir Lab R Packages
+Version: 0.1.0
+Authors@R: 
+    c(person(given = "Christopher",
+             family = "Muir",
+             role = c("cre", "aut"),
+             email = "cdmuir@hawaii.edu",
+             comment = c(ORCID = "0000-0003-2555-3878")))
+Description: Attaches CRAN and GitHub packages commonly used in
+    the Muir lab.
+License: MIT + file LICENSE
+URL: https://github.com/muir-lab/muirpkgs
+BugReports: https://github.com/muir-lab/muirpkgs
+Depends:
+  R (>= 4.0.0)
+Imports:
+  blob,
+  cli,
+  conflicted,
+  cowplot,
+  crayon,
+  data.table,
+  devtools,
+  doParallel,
+  dplyr,
+  forcats,
+  foreach,
+  future,
+  hms,
+  ggplot2,
+  ggrepel,
+  ggtext,
+  glue,
+  grid,
+  lintr,
+  lubridate,
+  magrittr,
+  pkgdown,
+  pillar,
+  purrr,
+  readr,
+  readxl,
+  remotes,
+  reprex,
+  rlang,
+  rmarkdown,
+  roxygen2md,
+  scales,
+  stringr,
+  testthat,
+  tibble,
+  tidyr,
+  units,
+  usethis,
+  viridis
+Remotes:
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
